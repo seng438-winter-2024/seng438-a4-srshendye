@@ -1,0 +1,460 @@
+{
+  "id": "3f50262c-4b21-4d84-847c-457ad89a9a4d",
+  "version": "2.0",
+  "name": "SENG438A4",
+  "url": "https://www.ebay.ca",
+  "tests": [{
+    "id": "d9a603b4-19af-4e97-83f5-994d5038d08f",
+    "name": "add to cart",
+    "commands": [{
+      "id": "2b43e875-7a03-47a6-ab0a-8a58d4f4c25d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9ce0671-671f-486c-b9a0-475305774bdc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1046x944",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71608816-3c15-4d38-98e8-0d3a98fbb08f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#s0-1-0-47-1-3-5-10-0\\[1\\]-2-\\@match-media-0-\\@ebay-carousel-list > .carousel__snap-point:nth-child(1) .vlp-merch-image-frame",
+      "targets": [
+        ["css=#s0-1-0-47-1-3-5-10-0\\[1\\]-2-\\@match-media-0-\\@ebay-carousel-list > .carousel__snap-point:nth-child(1) .vlp-merch-image-frame", "css:finder"],
+        ["xpath=//ul[@id='s0-1-0-47-1-3-5-10-0[1]-2-@match-media-0-@ebay-carousel-list']/li/div/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46f746d9-5c24-4ed5-a153-31647294c6c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#s0-1-0-47-1-3-5-10-0\\[1\\]-2-\\@match-media-0-\\@ebay-carousel-list > .carousel__snap-point:nth-child(1) .vlp-merch-image-frame",
+      "targets": [
+        ["css=#s0-1-0-47-1-3-5-10-0\\[1\\]-2-\\@match-media-0-\\@ebay-carousel-list > .carousel__snap-point:nth-child(1) .vlp-merch-image-frame", "css:finder"],
+        ["xpath=//ul[@id='s0-1-0-47-1-3-5-10-0[1]-2-@match-media-0-@ebay-carousel-list']/li/div/a/div/div/div", "xpath:idRelative"],
+        ["xpath=//a/div/div/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2883",
+      "windowTimeout": 2000
+    }, {
+      "id": "55fc1307-545a-4e8f-9c1b-a4b64e986405",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1765178-4d65-4a55-8faa-1a8076e27a2c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2883}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "445ef25b-cfb0-4dcc-9e47-903b224bd424",
+      "comment": "",
+      "command": "click",
+      "target": "css=.x-atc-action .ux-call-to-action__text",
+      "targets": [
+        ["css=.x-atc-action .ux-call-to-action__text", "css:finder"],
+        ["xpath=//div[@id='mainContent']/div[2]/div/div/div[2]/ul/li[2]/div/a/span/span", "xpath:idRelative"],
+        ["xpath=//li[2]/div/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b12141e4-48ae-4db8-a0d3-1c2f665fd5c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gh-cart-icon",
+      "targets": [
+        ["css=.gh-cart-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "909adb9a-97cb-4e6f-9fa1-2902e7e51359",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.grid-item-information",
+      "targets": [
+        ["css=.grid-item-information", "css:finder"],
+        ["xpath=//div[@id='mainContent']/div/div[3]/div/div/div/ul/li/div/div/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7354c196-de4c-4527-a9d2-ff87a202f5c9",
+    "name": "remove from cart",
+    "commands": [{
+      "id": "5fbb8efd-37db-4f95-8d70-828e5ce8d5eb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e7bf656-082b-4ce6-be76-c810cb244eef",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1046x944",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59c98779-1d4e-4517-9a9b-dfabfa2e294d",
+      "comment": "",
+      "command": "click",
+      "target": "id=gh-cart-n",
+      "targets": [
+        ["id=gh-cart-n", "id"],
+        ["css=#gh-cart-n", "css:finder"],
+        ["xpath=//i[@id='gh-cart-n']", "xpath:attributes"],
+        ["xpath=//li[@id='gh-minicart-hover']/div/a/i", "xpath:idRelative"],
+        ["xpath=//li[6]/div/a/i", "xpath:position"],
+        ["xpath=//i[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "90f8b7ef-4da8-419c-b5da-6d2acaba896a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-display-span:nth-child(3) > .fake-link",
+      "targets": [
+        ["css=.text-display-span:nth-child(3) > .fake-link", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='mainContent']/div/div[3]/div/div/div/ul/li/div/div/div/div[2]/span[2]/button", "xpath:idRelative"],
+        ["xpath=//span[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Remove')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f369c84-60ed-4d96-874d-7a58b8ad9545",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ghn-b",
+      "targets": [
+        ["css=.ghn-b", "css:finder"],
+        ["xpath=//li[@id='gh-eb-Alerts']/div/button", "xpath:idRelative"],
+        ["xpath=//li[5]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Notification')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6343629-2488-4a6c-a606-79911f1e8634",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ghn-b",
+      "targets": [
+        ["css=.ghn-b", "css:finder"],
+        ["xpath=//li[@id='gh-eb-Alerts']/div/button", "xpath:idRelative"],
+        ["xpath=//li[5]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Notification')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "23f0a7ee-495d-48e0-87e1-f92fd1dbeb29",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gh-cart-icon > use",
+      "targets": [
+        ["css=.gh-cart-icon > use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a10e35b4-a5fe-4bc1-8111-da77b41e36bb",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.empty-cart",
+      "targets": [
+        ["css=.empty-cart", "css:finder"],
+        ["xpath=//div[@id='mainContent']/div/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5aed4aec-83bb-42ba-855a-a227c28c3536",
+    "name": "change language",
+    "commands": [{
+      "id": "f2ea8823-8c3d-4f26-b536-bf557e8cbffa",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3652e387-f7d7-443e-8821-731ff6b9cd13",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1060x944",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f3afd8a-9f49-493e-aaa7-ee7c630f56df",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.gh-eb-li-a > .gh-eb-Geo-flag",
+      "targets": [
+        ["css=.gh-eb-li-a > .gh-eb-Geo-flag", "css:finder"],
+        ["xpath=//li[@id='gh-eb-Geo']/div/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Current language English')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5746057-81ea-498c-bc95-c840f80e73cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gh-eb-li-a > .gh-eb-Geo-flag",
+      "targets": [
+        ["css=.gh-eb-li-a > .gh-eb-Geo-flag", "css:finder"],
+        ["xpath=//li[@id='gh-eb-Geo']/div/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Current language English')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "04ebfdb6-8c73-49c6-9bc9-ad7d97a1a0e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gh-eb-li-a > .gh-eb-Geo-flag",
+      "targets": [
+        ["css=.gh-eb-li-a > .gh-eb-Geo-flag", "css:finder"],
+        ["xpath=//li[@id='gh-eb-Geo']/div/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Current language English')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4f6bb8a-e303-4c3d-af21-1b2270ea0448",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.gh-eb-li-a > .gh-eb-Geo-flag",
+      "targets": [
+        ["css=.gh-eb-li-a > .gh-eb-Geo-flag", "css:finder"],
+        ["xpath=//li[@id='gh-eb-Geo']/div/a/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Current language English')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1c89a89-8134-4ab9-9a1d-33d36ede73b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#gh-langt > .gh-eb-Geo-flag",
+      "targets": [
+        ["css=#gh-langt > .gh-eb-Geo-flag", "css:finder"],
+        ["xpath=//a[@id='gh-langt']/span", "xpath:idRelative"],
+        ["xpath=//li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de41d218-1b0a-4fef-a6f8-4bdbf7007071",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.gh-eb-li-a > .gh-eb-Geo-txt",
+      "targets": [
+        ["css=.gh-eb-li-a > .gh-eb-Geo-txt", "css:finder"],
+        ["xpath=//li[@id='gh-eb-Geo']/div/a/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b459f3e8-9250-437c-8f3f-06d5a556c609",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.gh-eb-li-a > .gh-eb-Geo-txt",
+      "targets": [
+        ["css=.gh-eb-li-a > .gh-eb-Geo-txt", "css:finder"],
+        ["xpath=//li[@id='gh-eb-Geo']/div/a/span[2]", "xpath:idRelative"],
+        ["xpath=//span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6bd581a-5327-4838-a295-bd1a67cd385d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.gh-eb-li-a > .gh-eb-Geo-txt",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "00bdf696-1fc2-49bc-af8b-d04507c617f9",
+    "name": "browse through categories",
+    "commands": [{
+      "id": "24616ae3-fb68-4d67-bd59-4e6fe6d4350d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ab40384-6388-401c-a463-27d8187e6715",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1060x944",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ae7c237-c5c9-4d3d-8e37-89ceaae2d8ef",
+      "comment": "",
+      "command": "click",
+      "target": "id=gh-shop-a",
+      "targets": [
+        ["id=gh-shop-a", "id"],
+        ["css=#gh-shop-a", "css:finder"],
+        ["xpath=//button[@id='gh-shop-a']", "xpath:attributes"],
+        ["xpath=//div[@id='gh-shop']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Shop by category')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "de6c6c25-4af9-4d03-809c-3e820c68c6e6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Women",
+      "targets": [
+        ["linkText=Women", "linkText"],
+        ["css=td:nth-child(1) > ul:nth-child(6) > li:nth-child(1) > .scnd", "css:finder"],
+        ["xpath=//a[contains(text(),'Women')]", "xpath:link"],
+        ["xpath=//table[@id='gh-sbc']/tbody/tr/td/ul[3]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.ebay.ca/b/Womens-Clothing/15724/bn_661783')]", "xpath:href"],
+        ["xpath=//ul[3]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Women')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "501da056-6a6c-48a2-9cfa-6e92ab8b3b08",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.b-visualnav__tile:nth-child(1) .b-visualnav__title",
+      "targets": [
+        ["css=.b-visualnav__tile:nth-child(1) .b-visualnav__title", "css:finder"],
+        ["xpath=//div[@id='mainContent']/section/div[2]/span/a/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "047a1608-2dac-4392-be84-aaea4f776f60",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.b-visualnav__tile:nth-child(1) .b-visualnav__title",
+      "targets": [
+        ["css=.b-visualnav__tile:nth-child(1) .b-visualnav__title", "css:finder"],
+        ["xpath=//div[@id='mainContent']/section/div[2]/span/a/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64aa9145-4b76-40be-9d02-970274ef762c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,188)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c84f509-c429-454a-81b5-1d5d03566dcd",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=s0-28-9-0-1[0]-0-2-0-title",
+      "targets": [
+        ["id=s0-28-9-0-1[0]-0-2-0-title", "id"],
+        ["css=#s0-28-9-0-1\\[0\\]-0-2-0-title", "css:finder"],
+        ["xpath=//h2[@id='s0-28-9-0-1[0]-0-2-0-title']", "xpath:attributes"],
+        ["xpath=//div[@id='mainContent']/section/div/div/div/h2", "xpath:idRelative"],
+        ["xpath=//div[3]/section/div/div/div/h2", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a39e76c3-ed92-4d4d-b5aa-7acd2018c9be",
+    "name": "search",
+    "commands": [{
+      "id": "f90067d3-7910-47f2-97f3-be4e4c3f317b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "318511da-1883-4c39-96b2-35ab5529de82",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1060x944",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "135fb7e0-717d-472a-9c6e-c9505ffedef0",
+      "comment": "",
+      "command": "click",
+      "target": "id=gh-ac",
+      "targets": [
+        ["id=gh-ac", "id"],
+        ["name=_nkw", "name"],
+        ["css=#gh-ac", "css:finder"],
+        ["xpath=//input[@id='gh-ac']", "xpath:attributes"],
+        ["xpath=//div[@id='gh-ac-box2']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31fedc11-1a68-4214-a19d-b167358d02aa",
+      "comment": "",
+      "command": "type",
+      "target": "id=gh-ac",
+      "targets": [
+        ["id=gh-ac", "id"],
+        ["name=_nkw", "name"],
+        ["css=#gh-ac", "css:finder"],
+        ["xpath=//input[@id='gh-ac']", "xpath:attributes"],
+        ["xpath=//div[@id='gh-ac-box2']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "stanley 40 oz tumbler"
+    }, {
+      "id": "ee366ce5-2a4b-47ad-9c6c-d2757e806036",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=gh-ac",
+      "targets": [
+        ["id=gh-ac", "id"],
+        ["name=_nkw", "name"],
+        ["css=#gh-ac", "css:finder"],
+        ["xpath=//input[@id='gh-ac']", "xpath:attributes"],
+        ["xpath=//div[@id='gh-ac-box2']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "80a578f4-ae51-415c-a41c-da4edac44a91",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.srp-controls__count-heading > .BOLD:nth-child(2)",
+      "targets": [
+        ["css=.srp-controls__count-heading > .BOLD:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='mainContent']/div/div/div/div/div/h1/span[2]", "xpath:idRelative"],
+        ["xpath=//h1/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b636950b-09b0-4735-a6e6-d175b997095b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.ebay.ca/"],
+  "plugins": []
+}
