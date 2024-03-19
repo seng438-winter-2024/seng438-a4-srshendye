@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="org.jfree.data.test (1)" project="JFreeChart_Lab3" tests="71" started="71" failures="0" errors="0" ignored="0">
+  <testsuite name="org.jfree.data.test.RangeTest" time="0.001">
+    <testcase name="testGetLengthEqualBounds" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testContainsValueInRange" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testGetCentralValueEqualBounds" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testConstrainValueAtUpperBound" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testConstrainValueIsInvalid" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testIntersectsRangeNotInRangeWithZeroLength" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testGetLengthPositiveAndNegativeBounds" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testGetLowerBound" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testGetLengthZeroLowerBoundPositiveUpperBound" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testIntersectsInvalidInputInRange" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testIntersectsInvalidInputNotInRange" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testIntersectsRangeIntersectsOverEntireRange" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testContainsValueAtUpperBound" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testContainsValueIsInvalid" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testContainsValueLessThanLowerBound" classname="org.jfree.data.test.RangeTest" time="0.001"/>
+    <testcase name="testIntersectsRangeLessThanLowerBound" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testConstrainValueInRange" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testGetCentralValueZeroLowerBoundPositiveUpperBound" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testConstrainValueLessThanLowerBound" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testContainsValueInRange_mutant" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testGetLength_LowerDecremented" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testIntersectsRangeIntersectsWithZeroLength" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testIntersectsRangeIntersectsRange" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testIntersectsRangeGreaterThanUpperBound" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testGetCentralValuePositiveAndNegativeBounds" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testIntersectsRangeIntersectsOverLowerBound" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testGetUpperBound" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testGetCentralValueNegativeBounds" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testGetLengthImproperRange" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testConstrainValueLessThanLowerBoundTest2" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testGetLengthNegativeLowerBoundZeroUpperBound" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testGetCentralValuePositiveBounds" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testConstrainValueGreaterThanUpperBound" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testIntersectsRangeIntersectsOverUpperBound" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testConstrainValueAtLowerBound" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testGetLengthNegativeBounds" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testGetCentralValueNegativeLowerBoundZeroUpperBound" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testGetLengthPositiveBounds" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testContainsValueAtLowerBound" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+    <testcase name="testContainsValueGreaterThanUpperBound" classname="org.jfree.data.test.RangeTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="org.jfree.data.test.DataUtilitiesTest" time="0.025">
+    <testcase name="createNumberArrayWithDoublesOnly" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="getCumulativePercentagesForDoubleIntFirstIndex" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="getCumulativePercentagesWithEmptyInput" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="calculateRowTotalForRowWithNumbersAndNull" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="getCumulativePercentagesForIntIntLastIndex" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="calculateRowTotalForRowWithAllNull" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="calculateColumnTotalForColumnWithNumbersAndNull" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="createNumberArrayWithEmptyArray" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="getCumulativePercentagesForIntDoubleFirstIndex" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="getCumulativePercentagesForCharIntLastIndex" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="createNumberArray2DWithLargeArray" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="getCumulativePercentagesForIntIntSecondIndex" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="calculateColumnTotalForColumnAboveRange" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="calculateRowTotalForRowWithAllNumbers" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="getCumulativePercentagesForIntDoubleSecondIndex" classname="org.jfree.data.test.DataUtilitiesTest" time="0.001"/>
+    <testcase name="getCumulativePercentagesForCharIntFirstIndex" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="createNumberArray2DWithEmptyArray" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="calculateColumnTotalForColumnBelowRange" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="getCumulativePercentagesForCharIntSecondIndex" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="getCumulativePercentagesForIntIntFirstIndex" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="calculateColumnTotalForColumnWithAllNumbers" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="createNumberArray2DWithDoublesOnly" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="getCumulativePercentagesItemCount" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="calculateColumnTotalForColumnWithAllNull" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="calculateRowTotalForRowAboveRange" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="getCumulativePercentagesForSingleValue" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="getCumulativePercentagesForIntDoubleLastIndex" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="createNumberArrayWithLargeArray" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="getCumulativePercentagesForDoubleIntLastIndex" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+    <testcase name="calculateRowTotalForRowBelowRange" classname="org.jfree.data.test.DataUtilitiesTest" time="0.001"/>
+    <testcase name="getCumulativePercentagesForDoubleIntSecondIndex" classname="org.jfree.data.test.DataUtilitiesTest" time="0.0"/>
+  </testsuite>
+</testrun>
